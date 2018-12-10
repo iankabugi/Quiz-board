@@ -6,9 +6,18 @@ html{
 }
 .container{
 
-  background-color: red;
+  background-color: green;
 }
 .radio{
-  background-color: grey;
+  background-color: #C0ABAB;
   width: 250px;
+}
+.well{
+  background-color: green;
+  font-weight: 300;
+
+
+}
+p{
+  font-weight: 300;
 }
