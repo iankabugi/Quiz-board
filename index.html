@@ -7,6 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scipts.js"></script>
   <title>Quiz-Board</title>
 </head>
 
@@ -22,51 +24,126 @@
         <li>You may select another answer,if need of change</li>
       </ol>
     </div>
-    <form class="well">
-      <p>Is javascript related to Java as a programming language?</p>
+    <div class="well" datasheet="one">
+      <p>1.Is javascript related to Java as a programming language?</p>
       <div class="radio">
         <label>
-          <input type="radio" name="myAnswer" value="1">
+          <input type="radio" name="answerOne" value="0">
           yes
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="myAnswer" value="2">
+          <input type="radio" name="answerOne" value="20">
           No
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="myAnswer" value="3">
+          <input type="radio" name="answerOne" value="0">
           None of the above
         </label>
       </div>
 
 
-    </form>
-    <form class="well">
+    </div>
+    <div class="well" datasheet="two">
 
-      <p>What is jquery?</p>
+      <p>2.What is jquery?</p>
       <div class="radio">
         <label>
-          <input type="radio" name="myAnswer" value="1">
+          <input type="radio" name="answerTwo" value="0">
           A web programming language
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="myAnswer" value="1">
+          <input type="radio" name="answerTwo" value="20">
           A library of  javascript functions
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="myAnswer" value="3">
+          <input type="radio" name="answerTwo" value="0">
           None of the above
         </label>
       </div>
-    </form>
+    </div>
+    <div class="well" datasheet="three">
+
+      <p>3.Where is javascript applied in web development?</p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answerThree" value="0">
+        Front end web development
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answerThree" value="20">
+        Back end web development
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answerThree" value="0">
+        Both front and back end web development
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answerThree" value="0">
+          None of the above
+        </label>
+      </div>
+    </div>
+    <div class="well" datasheet="four">
+
+      <p>4.Which of the following is not a javascript datatype?</p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answerFour" value="0">
+      Numbers
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answerFour" value="0">
+        Boolean
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answerFour" value="20">
+        NaN
+        </label>
+      </div>
+    </div>
+    <div class="well" datasheet="five">
+      <p>5.Can html,css,bootsrap,javasript and jquery be used together?</p>
+      <div class="radio">
+        <label>
+         <input type="radio" name="answerFive" value="20">
+         True
+       </label>
+      </div>
+      <div class="radio">
+        <label>
+         <input type="radio" name="answerFive" value="0">
+        False
+       </label>
+      </div>
+      <div class="radio">
+        <label>
+         <input type="radio" name="answerFive" value="0">
+         None of the above
+       </label>
+      </div>
+    </div>
+    <div class="well">
+    <input type="button" name="btnSubmit" value="Submit" id="submit">
+    </div>
+  </div>
 
 </body>
 
