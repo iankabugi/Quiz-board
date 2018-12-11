@@ -6,8 +6,8 @@ This is a simple web application that evaluates the user on their knowledge on j
 ## Installation Requirements
 * working internet connection
 * a github account
-##setup
-* clone this repository
+## setup
+* clone this repository https://github.com/iankabugi/Quiz-board
 
 ## Known Bugs
 one has to do a refresh to run another test
