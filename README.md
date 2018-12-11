@@ -17,6 +17,8 @@ This web  was typed in HTML, CSS for styling and the back end was javascript wit
 * Fetch data from the user
 * Evaluate data from the user
 * Display result
+## Link to live site
+  https://iankabugi.github.io/Quiz-board/
 ## Support and contact details
 If you should run into any problem, reach me through
 E-mail: iank299@gmail.com
