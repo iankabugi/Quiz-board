@@ -11,7 +11,7 @@ var totalScore =parseInt(attemptOne)+ parseInt(attemptTwo) + parseInt(attemptThr
 var percentageScore= (totalScore/100)*100
 var percentageScore=percentageScore.toString() + "%"
 $("#submit").text(percentageScore);
-$(".well").hide(function(event){
+$(".container").hide(function(event){
     alert(percentageScore);
   });
   });
