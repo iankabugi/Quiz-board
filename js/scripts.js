@@ -7,12 +7,44 @@ $(document).ready(function() {
     var attemptFour = $("input:radio[name=answerFour]:checked").val();
     var attemptFive = $("input:radio[name=answerFive]:checked").val();
 
-var totalScore =parseInt(attemptOne)+ parseInt(attemptTwo) + parseInt(attemptThree) + parseInt(attemptFour) + parseInt(attemptFive)
-var percentageScore= (totalScore/100)*100
-var percentageScore=percentageScore.toString() + "%"
-$("#submit").text(percentageScore);
-$(".container").hide(function(event){
-    alert(percentageScore);
-  });
+
+    $(".quiz").hide();
+
+
+    var attemptOne1, attemptOne2, attemptOne3, attemptOne4, attemptOne5;
+
+    if (attemptOne.toString() === "no") {
+      attemptOne1 = 20;
+    } else {
+      attemptOne1 = 0;
+    }
+    if (attemptTwo.toString() === "A library of  javascript functions") {
+      attemptOne2 = 20;
+    } else {
+      attemptOne2 = 0;
+    }
+    if (attemptThree.toString() === "Back end web development") {
+      attemptOne3 = 20;
+    } else {
+      attemptOne3 = 0;
+    }
+    if (attemptFour.toString() === "NaN") {
+      attemptOne4 = 20;
+    } else {
+      attemptOne4 = 0;
+    }
+    if (attemptFive.toString() === "True") {
+      attemptOne5 = 20;
+    } else {
+      attemptOne5 = 0;
+    }
+
+    add(attemptOne1, attemptOne2, attemptOne3, attemptOne4, attemptOne5);
+    //$("#.container").hide();
   });
 });
+
+var add = function(res1, res2, res3, res4, res5) {
+  var result = res1 + res2 + res3 + res4 + res5;
+  $("#output").text("You have scored " + result);
+};
