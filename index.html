@@ -14,6 +14,8 @@
 
 <body>
   <div class="container">
+    <div class="quiz">
+
     <div class="jumbotron">
       <h1>Quiz Board</h1>
       <p>This is a quiz on Javasript,its not that difficult,success</p>
@@ -28,19 +30,19 @@
       <p>1.Is javascript related to Java as a programming language?</p>
       <div class="radio">
         <label>
-          <input type="radio" name="answerOne" value="0">
+          <input type="radio" name="answerOne" value="yes" checked>
           yes
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="answerOne" value="20">
+          <input type="radio" name="answerOne" value="no">
           No
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="answerOne" value="0">
+          <input type="radio" name="answerOne" value="none">
           None of the above
         </label>
       </div>
@@ -52,19 +54,19 @@
       <p>2.What is jquery?</p>
       <div class="radio">
         <label>
-          <input type="radio" name="answerTwo" value="0">
+          <input type="radio" name="answerTwo" value="A web programming language" checked>
           A web programming language
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="answerTwo" value="20">
+          <input type="radio" name="answerTwo" value="A library of  javascript functions">
           A library of  javascript functions
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="answerTwo" value="0">
+          <input type="radio" name="answerTwo" value="None of the above">
           None of the above
         </label>
       </div>
@@ -74,25 +76,25 @@
       <p>3.Where is javascript applied in web development?</p>
       <div class="radio">
         <label>
-          <input type="radio" name="answerThree" value="0">
+          <input type="radio" name="answerThree" value="Front end web development"checked>
         Front end web development
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="answerThree" value="20">
+          <input type="radio" name="answerThree" value="Back end web development">
         Back end web development
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="answerThree" value="0">
+          <input type="radio" name="answerThree" value="Both front and back end web development">
         Both front and back end web development
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="answerThree" value="0">
+          <input type="radio" name="answerThree" value="None of the above">
           None of the above
         </label>
       </div>
@@ -102,19 +104,19 @@
       <p>4.Which of the following is not a javascript datatype?</p>
       <div class="radio">
         <label>
-          <input type="radio" name="answerFour" value="0">
+          <input type="radio" name="answerFour" value="Numbers">
       Numbers
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="answerFour" value="0">
+          <input type="radio" name="answerFour" value="Boolean"checked>
         Boolean
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="answerFour" value="20">
+          <input type="radio" name="answerFour" value="NaN">
         NaN
         </label>
       </div>
@@ -123,19 +125,19 @@
       <p>5.Can html,css,bootsrap,javasript and jquery be used together?</p>
       <div class="radio">
         <label>
-         <input type="radio" name="answerFive" value="20">
+         <input type="radio" name="answerFive" value="True">
          True
        </label>
       </div>
       <div class="radio">
         <label>
-         <input type="radio" name="answerFive" value="0">
+         <input type="radio" name="answerFive" value="False">
         False
        </label>
       </div>
       <div class="radio">
         <label>
-         <input type="radio" name="answerFive" value="0">
+         <input type="radio" name="answerFive" value="None of the above"checked>
          None of the above
        </label>
       </div>
@@ -143,7 +145,14 @@
     <div class="well">
       <input type="button" name="btnSubmit" value="Submit" id="submit" onclick="">
     </div>
+
+  </div>
+  <div >
+    <p id="output"></p>
+  </div>
     </div>
+
+
 
 </body>
 
